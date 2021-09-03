@@ -1,0 +1,30 @@
+{
+  "name": "bsys",
+  "version": "1.0.0",
+  "description": "FIFO Problem. Products arriving based on supply, and then sent to customers based on demand",
+  "main": "index.js",
+  "scripts": {
+    "allocate": "node index",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmesaf/bsys.git"
+  },
+  "keywords": [
+    "FIFO",
+    "Demand",
+    "Products",
+    "Supply"
+  ],
+  "author": "Ricardo Mesa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rmesaf/bsys/issues"
+  },
+  "homepage": "https://github.com/rmesaf/bsys#readme",
+  "dependencies": {
+    "jest": "^27.1.0"
+  }
+}
