@@ -6,9 +6,16 @@
  * @returns {array} allocations
  */
 
+const isArray = require('../isArray/isArray');
+
 function allocate(salesOrders, purchaceOrders) {
-  if (!Array.isArray(salesOrders) || !Array.isArray(purchaceOrders)) {
+  if (!isArray(salesOrders) || !isArray(purchaceOrders)) {
     throw new Error('Allocate should receive arrays as params');
+  }
+  const hasOrders = salesOrders.length !== 0;
+
+  if(!hasOrders) {
+    return salesOrders;
   }
 }
 
