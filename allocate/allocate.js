@@ -7,7 +7,9 @@
  */
 
 function allocate(salesOrders, purchaceOrders) {
-
+  if (!Array.isArray(salesOrders) || !Array.isArray(purchaceOrders)) {
+    throw new Error('Allocate should receive arrays as params');
+  }
 }
 
 module.exports = allocate;
