@@ -1,4 +1,4 @@
-const allocate = require('./allocate');
+const allocate = require('.');
 
 describe('Allocate Tests', () => {
   it('Should throw an exception if one of the parameters is not an array', () => {
