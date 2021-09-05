@@ -1,5 +1,5 @@
 # BSYS
-FIFO Problem. Products arriving based on supply, and then sent to customers based on demand.
+FIFO Problem. Products arriving based on supply, and then sent to customers based on demand. 
 
 - [BSYS](#bsys)
   - [Prerequisites](#prerequisites)
@@ -39,11 +39,13 @@ Run the project with
 npm run allocate or yarn allocate
 ```
 
+> NOTE: *salesOrders* and *purchaseOrders* are located inside mockData.js file in the project root. Feel free of change those variables if you want to test other use cases.
+
 ## Testing
 Run the project tests
 
 ```
-npm run test or yarn allocate
+npm run test or yarn test
 ```
 
 ## Authors
